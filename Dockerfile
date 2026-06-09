@@ -1,4 +1,4 @@
-FROM caddy:2.10.2-builder-alpine AS builder
+FROM caddy:2.11.4-builder-alpine AS builder
 
 RUN xcaddy build \
     --with github.com/corazawaf/coraza-caddy/v2 \
